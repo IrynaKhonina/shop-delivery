@@ -13,5 +13,6 @@ export const ButtonSearch = () => {
             />
             <span className="text-base text-white hidden lg:block">Каталог</span>
         </button>
+
     );
 };
