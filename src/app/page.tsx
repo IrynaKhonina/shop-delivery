@@ -1,7 +1,8 @@
 
-import Slider from "@/components/Slider/Slider";
+
 import {Actions} from "@/components/Actions";
 import {NewProducts} from "@/components/NewProducts";
+import {Slider} from "@/components/Slider/Slider";
 
 export default function Home() {
   return (
