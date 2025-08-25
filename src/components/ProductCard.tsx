@@ -11,7 +11,7 @@ export const ProductCard = ({
   img,
   description,
   basePrice,
-  discountPercent,
+  discountPercent = 0,
   rating,
   categories,
 }: ProductCardProps) => {
