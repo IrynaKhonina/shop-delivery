@@ -5,6 +5,7 @@ import {NewProducts} from "@/components/NewProducts";
 import {Slider} from "@/components/Slider/Slider";
 import {Purchases} from "@/components/Purchases";
 import {SpecialOffers} from "@/components/SpecialOffers";
+import {Maps} from "@/components/Maps";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <NewProducts />
           <Purchases/>
           <SpecialOffers/>
+          <Maps/>
       </div>
     </main>
   );
