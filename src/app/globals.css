@@ -28,3 +28,6 @@ body {
   color: var(--foreground);
   font-family: var(--font-rubik), sans-serif;
 }
+.no-ymaps-copyright [class*="copyrights-pane"] {
+  visibility: hidden
+}
