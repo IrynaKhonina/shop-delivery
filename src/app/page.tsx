@@ -1,11 +1,12 @@
 import {Actions} from "@/components/Actions";
 import {NewProducts} from "@/components/NewProducts";
-import {Slider} from "@/components/Slider/Slider";
+import {Slider} from "@/components/slider/Slider";
 import {Purchases} from "@/components/Purchases";
 import {SpecialOffers} from "@/components/SpecialOffers";
 import {Maps} from "@/components/Maps";
+import Articles from "@/components/Articles";
 
-import {Articles} from "@/components/Articles";
+
 
 export default function Home() {
     return (
