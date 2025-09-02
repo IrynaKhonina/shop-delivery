@@ -3,6 +3,7 @@ import iconRight from "../../public/icons-header/icon-arrow-right.svg";
 import database from "@/data/database.json";
 import {ProductCard} from "@/components/ProductCard";
 
+
 export const Purchases = () => {
     const userPurchases = database.users[0].purchases
         .map((purchase) => {
